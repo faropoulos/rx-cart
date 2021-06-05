@@ -1,7 +1,7 @@
 {
   "name": "rx-cart",
   "type": "module",
-  "version": "0.0.4",
+  "version": "0.0.5",
   "description": "An Asynchronous Cart library build with RxJS and TypeScript",
   "main": "./dist/index.js",
   "types": "./dist/index.d.ts",
@@ -40,14 +40,11 @@
     "eslint": "7.27.0",
     "jest": "27.0.4",
     "prettier": "2.3.0",
-    "rxjs": "7.1.0",
+    "rxjs": "^7.1.0",
     "ts-jest": "27.0.2",
     "ts-loader": "9.2.2",
     "ts-node-dev": "1.1.6",
     "tsconfig-paths": "3.9.0",
     "typescript": "4.3.2"
-  },
-  "dependencies": {
-    "tslib": "2.2.0"
   }
 }
