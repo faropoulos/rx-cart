@@ -1,7 +1,7 @@
 {
   "name": "rx-cart",
   "type": "module",
-  "version": "0.0.3",
+  "version": "0.0.4",
   "description": "An Asynchronous Cart library build with RxJS and TypeScript",
   "main": "./dist/index.js",
   "types": "./dist/index.d.ts",
@@ -13,6 +13,9 @@
     "build": "tsc -p .",
     "watch": "tsc --watch"
   },
+  "files": [
+    "lib"
+  ],
   "repository": {
     "type": "git",
     "url": "git+https://github.com/faropoulos/rx-cart.git"
@@ -44,5 +47,7 @@
     "tsconfig-paths": "3.9.0",
     "typescript": "4.3.2"
   },
-  "dependencies": {}
+  "dependencies": {
+    "tslib": "2.2.0"
+  }
 }

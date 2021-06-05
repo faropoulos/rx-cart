@@ -1,5 +1,5 @@
-import { Cart, CartItem } from 'interfaces';
-import * as RxCart from './index';
+import { Cart, CartItem } from '../../src/interfaces';
+import * as RxCart from '../../src/index';
 
 describe('Cart Store', () => {
   const EMPTY_CART: Cart = { items: [], totalPrice: 0, totalQuantity: 0 };
