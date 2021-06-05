@@ -1,7 +1,8 @@
 {
   "compilerOptions": {
     "baseUrl": "src",
-    "outDir": "./dist",
+    "outDir": "lib",
+    "rootDir": "src",
     "allowSyntheticDefaultImports": true,
     "noImplicitAny": true,
     "module": "commonjs",

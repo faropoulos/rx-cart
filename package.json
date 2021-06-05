@@ -1,7 +1,7 @@
 {
   "name": "rx-cart",
   "type": "module",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "An Asynchronous Cart library build with RxJS and TypeScript",
   "main": "./dist/index.js",
   "types": "./dist/index.d.ts",
@@ -10,7 +10,7 @@
     "test:watch": "jest --watch",
     "lint": "eslint . --ext .ts",
     "start": "ts-node-dev ./src/index",
-    "build": "tsc",
+    "build": "tsc -p .",
     "watch": "tsc --watch"
   },
   "repository": {
