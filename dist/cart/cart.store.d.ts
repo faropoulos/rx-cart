@@ -1,5 +1,5 @@
 import { Observable } from 'rxjs';
-import { Cart, CartItem } from 'interfaces';
+import { Cart, CartItem } from '../interfaces';
 export { cart$, getCart, addItem, updateItem, removeItem, clearCart };
 declare const cart$: Observable<Cart>;
 declare function getCart(): Cart;
