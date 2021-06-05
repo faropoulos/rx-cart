@@ -1,0 +1,47 @@
+{
+  "name": "rx-cart",
+  "type": "module",
+  "version": "0.0.1",
+  "description": "An Asynchronous Cart library build with RxJS and TypeScript",
+  "main": "index.ts",
+  "scripts": {
+    "test": "jest",
+    "test:watch": "jest --watch",
+    "lint": "eslint . --ext .ts",
+    "start": "ts-node-dev ./src/index",
+    "build": "tsc",
+    "watch": "tsc --watch"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/faropoulos/rx-cart.git"
+  },
+  "keywords": [
+    "rxjs",
+    "typescript",
+    "shopping-cart",
+    "cart"
+  ],
+  "author": "Giannis Faropoulos",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/faropoulos/rx-cart/issues"
+  },
+  "homepage": "https://github.com/faropoulos/rx-cart#readme",
+  "devDependencies": {
+    "@types/jest": "^26.0.23",
+    "@types/node": "15.12.1",
+    "@typescript-eslint/eslint-plugin": "4.26.0",
+    "@typescript-eslint/parser": "4.26.0",
+    "eslint": "7.27.0",
+    "jest": "27.0.4",
+    "prettier": "2.3.0",
+    "rxjs": "7.1.0",
+    "ts-jest": "27.0.2",
+    "ts-loader": "9.2.2",
+    "ts-node-dev": "1.1.6",
+    "tsconfig-paths": "3.9.0",
+    "typescript": "4.3.2"
+  },
+  "dependencies": {}
+}
