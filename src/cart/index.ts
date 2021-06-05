@@ -1,1 +1,1 @@
-export * as CartStore from './cart.store';
+export * from './cart.store';

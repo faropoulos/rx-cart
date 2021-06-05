@@ -1,9 +1,10 @@
 {
   "name": "rx-cart",
   "type": "module",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "An Asynchronous Cart library build with RxJS and TypeScript",
-  "main": "index.ts",
+  "main": "./dist/index.js",
+  "types": "./dist/index.d.ts",
   "scripts": {
     "test": "jest",
     "test:watch": "jest --watch",

@@ -8,6 +8,7 @@
     "target": "es5",
     "allowJs": true,
     "types": ["node", "jest"],
+    "declaration": true,
     "resolveJsonModule": true,
     "sourceMap": true,
     "downlevelIteration": true,
