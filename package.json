@@ -1,7 +1,7 @@
 {
   "name": "rx-cart",
   "type": "module",
-  "version": "0.0.9",
+  "version": "0.0.10",
   "description": "An Asynchronous Cart library build with RxJS and TypeScript",
   "main": "./dist/RxCart.js",
   "types": "./dist/RxCart.d.ts",
