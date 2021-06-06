@@ -1,27 +1,24 @@
 {
   "compilerOptions": {
     "baseUrl": "src",
-    "outDir": "dist",
-    "rootDir": "src",
+    "outDir": "./lib",
+    "rootDir": "./src",
     "allowSyntheticDefaultImports": true,
-    "noImplicitAny": true,
-    "module": "commonjs",
-    "lib": ["es2020"],
-    "target": "es2015",
-    "allowJs": true,
+    "module": "ES2015",
+    "lib": ["ES2020", "DOM"],
+    "target": "ES2015",
+    "strict": true,
     "types": ["node", "jest"],
     "declaration": true,
+    "removeComments": true,
     "resolveJsonModule": true,
     "sourceMap": true,
-    "downlevelIteration": true,
-    "experimentalDecorators": true,
     "moduleResolution": "node",
     "paths": {
       "@rx-cart/*": ["src/cart/*"],
       "@rx-cart-interfaces": ["src/interfaces"]
     }
   },
-  "files": ["src/RxCart.ts"],
   "include": ["src"],
   "exclude": ["node_modules"]
 }

@@ -1,6 +1,6 @@
 import { asapScheduler, BehaviorSubject, Observable, Observer } from 'rxjs';
 import { observeOn } from 'rxjs/operators';
-import { Cart, CartItem } from '../interfaces';
+import { Cart, CartItem } from './interfaces';
 
 export { cart$, getCart, addItem, updateItem, removeItem, clearCart };
 
