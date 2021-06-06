@@ -6,7 +6,7 @@
     "allowSyntheticDefaultImports": true,
     "noImplicitAny": true,
     "module": "commonjs",
-    "lib": ["es2015"],
+    "lib": ["es2020"],
     "target": "es2015",
     "allowJs": true,
     "types": ["node", "jest"],
