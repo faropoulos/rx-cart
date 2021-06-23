@@ -1,4 +1,4 @@
-export interface CartItem<T = void> {
+export interface CartItem<T> {
   item?: T;
   id: string;
   name: string;

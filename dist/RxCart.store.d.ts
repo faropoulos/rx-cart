@@ -1,0 +1,10 @@
+import { Observable } from 'rxjs';
+import { Cart, CartItem } from './interfaces';
+export { cart$, initializeCart, getCart, addItem, updateItem, removeItem, clearCart };
+declare let cart$: Observable<Cart<any>>;
+declare function initializeCart<T>(): void;
+declare function getCart<T>(): Cart<T>;
+declare function addItem<T>(item: CartItem<T>): Observable<Cart<T>>;
+declare function updateItem<T>(item: CartItem<T>): Observable<Cart<T>>;
+declare function removeItem<T>(item: CartItem<T>): Observable<Cart<T>>;
+declare function clearCart<T>(): Observable<Cart<T>>;

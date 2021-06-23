@@ -1,12 +1,14 @@
 {
   "name": "rx-cart",
+  "type": "module",
   "version": "0.0.12",
   "description": "An Asynchronous Cart library build with RxJS and TypeScript",
-  "main": "./lib/RxCart.js",
-  "types": "./lib/RxCart.d.ts",
+  "main": "./dist/RxCart.js",
+  "types": "./dist/RxCart.d.ts",
   "files": [
-    "lib"
+    "dist"
   ],
+  "sideEffects": false,
   "scripts": {
     "test": "jest",
     "test:watch": "jest --watch",
@@ -26,7 +28,7 @@
     "cart"
   ],
   "author": "Giannis Faropoulos",
-  "license": "ISC",
+  "license": "MIT",
   "bugs": {
     "url": "https://github.com/faropoulos/rx-cart/issues"
   },
@@ -47,5 +49,8 @@
   },
   "dependencies": {
     "rxjs": "7.1.0"
+  },
+  "peerDependencies": {
+    "rxjs": "5.5.x"
   }
 }
