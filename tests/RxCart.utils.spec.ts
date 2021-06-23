@@ -1,5 +1,5 @@
-import { CartItem } from 'interfaces';
-import { createCartStore } from './RxCart.store';
+import { CartItem } from '../src/interfaces';
+import { createCartStore } from '../src/RxCart.store';
 
 describe('RxCart Utilities', () => {
   describe('createCart', () => {
